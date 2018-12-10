@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textViewStepsAtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <at.grabner.circleprogress.CircleProgressView
+        android:id="@+id/circleProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:indeterminate="false"
+        app:cpv_direction="CCW"
+        app:cpv_showUnit="true"
+        app:cpv_textSize="20dp"
+        app:cpv_unit="%"
+        app:cpv_unitPosition="right_top"
+        app:cpv_unitSize="16dp" />
+
+</LinearLayout>

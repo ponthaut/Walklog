@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Walklog</string>
+    <string name="title_activity_log_list">Past 30 days</string>
+
+
+    <string name="daily_goal_steps">Goal (steps/day)</string>
+    <string name="label_recent_activities">Recent activities</string>
+    <string name="label_achieve_count">Your achievements in</string>
+
+    <string name="label_last_three_days">last 3 days</string>
+    <string name="label_last_seven_days">last 7 days</string>
+    <string name="label_last_thirty_days">last 30 days</string>
+
+    <string name="more_details">More Details&#8230;</string>
+    <string name="more_statistics">More Statistics&#8230;</string>
+
+    <string name="clear">Clear!</string>
+
+    <string name="alert_not_implemented">Not yet implemented. please wait&#8230;</string>
+
+
+    <string name="dialog_label_save">Save</string>
+    <string name="dialog_label_cancel">Cancel</string>
+</resources>
